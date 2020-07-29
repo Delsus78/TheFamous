@@ -3,7 +3,7 @@
   "_type": "mob",
   "definition": {
     "mobName": "Ian Malcolm",
-    "mobLabel": "§9Ian Malcolm ",
+    "mobLabel": "§4Ian Malcolm",
     "mobModelName": "Biped",
     "mobModelTexture": "ian__malcolm.png",
     "mobModelGlowTexture": "",
@@ -11,7 +11,7 @@
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
-    "hasSpawnEgg": true,
+    "hasSpawnEgg": false,
     "spawnEggBaseColor": {
       "value": -1676108,
       "falpha": 0.0
@@ -46,11 +46,11 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 0,
+    "attackStrength": 4,
     "movementSpeed": 0.5,
     "armorBaseValue": 1.0,
     "trackingRange": 64,
-    "health": 10,
+    "health": 1,
     "xpAmount": 1000,
     "waterMob": false,
     "flyingMob": false,
@@ -58,13 +58,13 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
-    "immuneToArrows": false,
-    "immuneToFallDamage": false,
-    "immuneToCactus": false,
-    "immuneToDrowning": false,
-    "immuneToLightning": false,
-    "immuneToPotions": false,
+    "immuneToFire": true,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
     "immuneToPlayer": false,
     "mobDrop": {
       "value": ""
@@ -87,11 +87,11 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "whenMobIsHurt": {
-      "name": "NaiMloclamEntityIsHurt"
+      "name": "NaiMloclamAttackEntityIsHurt"
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"47\" y=\"59\"><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayerMP</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityMob</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"/></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"47\" y=\"59\"><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityMob</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"/></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "breedTriggerItems": [
       {
