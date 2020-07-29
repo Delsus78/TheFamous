@@ -2,10 +2,10 @@
   "_fv": 8,
   "_type": "mob",
   "definition": {
-    "mobName": "Nai Mloclam",
+    "mobName": "Space Cadet",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "ian_malcolm.png",
+    "mobModelTexture": "space_cadet_v2.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -13,21 +13,21 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -39169,
+      "value": -10079488,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16777216,
+      "value": -13408513,
       "falpha": 0.0
     },
     "creativeTab": {
       "value": "CUSTOM:LeFameuxMod"
     },
-    "isBoss": true,
-    "bossBarColor": "RED",
+    "isBoss": false,
+    "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": ""
+      "value": "CUSTOM:MeteoriteSword"
     },
     "equipmentOffHand": {
       "value": ""
@@ -50,8 +50,8 @@
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 500,
-    "xpAmount": 1000,
+    "health": 15,
+    "xpAmount": 20,
     "waterMob": false,
     "flyingMob": false,
     "disableCollisions": false,
@@ -60,27 +60,27 @@
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
-    "immuneToCactus": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
     "immuneToDrowning": false,
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": "CUSTOM:ThiccSword"
+      "value": ""
     },
     "livingSound": {
-      "value": "CUSTOM:ian-malcolm-l03"
+      "value": ""
     },
     "hurtSound": {
-      "value": "CUSTOM:ian-malcolm-l04"
+      "value": "block.metal.hit"
     },
     "deathSound": {
-      "value": "CUSTOM:ian-malcolm-l06"
+      "value": "block.anvil.break"
     },
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "SMOKE_LARGE"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -88,7 +88,7 @@
     "particleSpawningCondition": "ALWAYS",
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1</field><field name=\"longmemory\">TRUE</field><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"/></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "breedTriggerItems": [],
     "ranged": false,
@@ -96,13 +96,17 @@
       "value": ""
     },
     "rangedItemType": "Default item",
-    "spawnThisMob": false,
-    "doesDespawnWhenIdle": false,
-    "spawningProbability": 60,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 20,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 1,
-    "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      }
+    ],
+    "spawnInDungeons": true
   }
 }
