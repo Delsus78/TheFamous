@@ -287,6 +287,15 @@
       }
     },
     {
+      "name": "FamousCraftingTable",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "famous_crafting_table"
+    },
+    {
       "name": "FamousCraftingGUI",
       "type": "gui",
       "sortid": 19,
@@ -296,13 +305,55 @@
       "registry_name": "famous_crafting_gui"
     },
     {
-      "name": "FamousCraftingTable",
-      "type": "block",
+      "name": "NaiMloclamAttackEntityIsHurt",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nai_mloclam_attack_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NaiMloclamAttack",
+      "type": "mob",
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "famous_crafting_table"
+      "registry_name": "nai_mloclam_attack"
+    },
+    {
+      "name": "LeVraiNaiMloclam",
+      "type": "mob",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "le_vrai_nai_mloclam"
     }
   ],
   "variable_elements": [],
@@ -356,7 +407,6 @@
       "block.lefameuxmod.meteorite_ore": "Meteorite Ore",
       "item.lefameuxmod.meteorite_axe": "Meteorite Axe",
       "block.lefameuxmod.meteorite_block": "Meteorite Fragment Block",
-      "block.lefameuxmod.famous_crafting_table": "Famous Crafting Table",
       "entity.lefameuxmod.nai_mloclam": "Ian Malcolm",
       "item.lefameuxmod.meteorite_sword": "Meteorite Sword",
       "item.lefameuxmod.meteorite_pickaxe": "Meteorite Pickaxe",
