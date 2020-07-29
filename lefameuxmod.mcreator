@@ -99,15 +99,6 @@
       "registry_name": "meteorite_ore"
     },
     {
-      "name": "MeteoriteFurnace",
-      "type": "gui",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "meteorite_furnace"
-    },
-    {
       "name": "TheFamousFurnaceFuel",
       "type": "procedure",
       "sortid": 10,
@@ -354,6 +345,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "space_cadet"
+    },
+    {
+      "name": "FamousCraftingTable",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "famous_crafting_table"
+    },
+    {
+      "name": "FamousCraftingGUI",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "famous_crafting_gui"
     }
   ],
   "variable_elements": [],
@@ -403,12 +412,10 @@
     "en_us": {
       "itemGroup.table_fameux_mod": "The Famous Mod",
       "item.lefameuxmod.thicc_sword": "Thicc Sword",
-      "entity.lefameuxmod.space_cadet": "Space Cadet",
       "item.lefameuxmod.nai_mloclam": "Ian Malcolm Spawn Egg",
       "block.lefameuxmod.meteorite_ore": "Meteorite Ore",
       "item.lefameuxmod.meteorite_axe": "Meteorite Axe",
       "block.lefameuxmod.meteorite_block": "Meteorite Fragment Block",
-      "item.lefameuxmod.space_cadet": "Space Cadet Spawn Egg",
       "entity.lefameuxmod.nai_mloclam_attack": "Ian Malcolm",
       "entity.lefameuxmod.nai_mloclam": "Ian Malcolm",
       "item.lefameuxmod.meteorite_sword": "Meteorite Sword",
@@ -418,8 +425,8 @@
       "item.lefameuxmod.ian_malcolm": "Nai Mloclam Spawn Egg",
       "fluid.gasoil": "Gasoil",
       "item.lefameuxmod.gasoil_bucket": "Gasoil Bucket",
-      "item.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam Spawn Egg",
-      "entity.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam",
+      "item.lefameuxmod.le_vrai_nai_mloclam": "Le Vrai Nai Mloclam Spawn Egg",
+      "entity.lefameuxmod.le_vrai_nai_mloclam": "Le Vrai Nai Mloclam",
       "block.lefameuxmod.gasoil_block": "Gasoil Block",
       "item.lefameuxmod.meteorite_gun": "Meteorite Gun",
       "item.lefameuxmod.nai_mloclam_attack": "Ian Malcolm Spawn Egg"

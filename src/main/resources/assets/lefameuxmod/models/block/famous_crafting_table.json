@@ -1,0 +1,16 @@
+{
+  "parent": "lefameuxmod:custom/famous_crafting_table",
+  "textures": {
+    "all": "lefameuxmod:blocks/meteorite_fragment_block",
+    "particle": "lefameuxmod:blocks/meteorite_fragment_block",
+    "0": "lefameuxmod:blocks/fletching_table_side",
+    "1": "lefameuxmod:blocks/basalt_side",
+    "2": "lefameuxmod:blocks/birch_door_top",
+    "3": "lefameuxmod:blocks/birch_planks",
+    "4": "lefameuxmod:blocks/barrel_side",
+    "5": "lefameuxmod:blocks/daylight_detector_side",
+    "6": "lefameuxmod:blocks/cauldron_side",
+    "7": "lefameuxmod:blocks/acacia_planks",
+    "missing": "lefameuxmod:blocks/"
+  }
+}
