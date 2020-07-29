@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fletching_table_side",
+        "1": "basalt_side",
+        "2": "birch_door_top",
+        "3": "birch_planks",
+        "4": "barrel_side",
+        "5": "daylight_detector_side",
+        "6": "cauldron_side",
+        "7": "acacia_planks",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

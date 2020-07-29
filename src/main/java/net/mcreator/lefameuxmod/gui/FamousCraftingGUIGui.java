@@ -42,11 +42,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @LefameuxmodModElements.ModElement.Tag
-public class MeteoriteFurnaceGui extends LefameuxmodModElements.ModElement {
+public class FamousCraftingGUIGui extends LefameuxmodModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public MeteoriteFurnaceGui(LefameuxmodModElements instance) {
-		super(instance, 9);
+	public FamousCraftingGUIGui(LefameuxmodModElements instance) {
+		super(instance, 19);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -62,7 +62,7 @@ public class MeteoriteFurnaceGui extends LefameuxmodModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-		event.getRegistry().register(containerType.setRegistryName("meteorite_furnace"));
+		event.getRegistry().register(containerType.setRegistryName("famous_crafting_gui"));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -306,7 +306,7 @@ public class MeteoriteFurnaceGui extends LefameuxmodModElements.ModElement {
 			this.xSize = 176;
 			this.ySize = 168;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("lefameuxmod:textures/meteorite_furnace.png");
+		private static final ResourceLocation texture = new ResourceLocation("lefameuxmod:textures/famous_crafting_gui.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
