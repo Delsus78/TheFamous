@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "gasoilblock",
+        "1": "meteorite_blade",
+        "2": "gold"
+      },
+      "name": "default"
+    }
+  }
+}

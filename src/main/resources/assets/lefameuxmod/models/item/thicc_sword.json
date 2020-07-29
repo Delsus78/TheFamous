@@ -1,0 +1,8 @@
+{
+  "parent": "lefameuxmod:custom/thicc_sword",
+  "textures": {
+    "0": "lefameuxmod:blocks/stick",
+    "1": "lefameuxmod:blocks/gold",
+    "2": "lefameuxmod:blocks/lame"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stick",
+        "1": "gold",
+        "2": "lame"
+      },
+      "name": "default"
+    }
+  }
+}

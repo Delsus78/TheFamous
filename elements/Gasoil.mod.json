@@ -1,0 +1,19 @@
+{
+  "_fv": 8,
+  "_type": "fluid",
+  "definition": {
+    "name": "Gasoil",
+    "textureStill": "gasoil",
+    "textureFlowing": "gasoil",
+    "luminosity": 0,
+    "density": 10000,
+    "viscosity": 10000,
+    "isGas": false,
+    "type": "LAVA",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:LeFameuxMod"
+    },
+    "spawnWorldTypes": []
+  }
+}

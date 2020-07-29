@@ -1,0 +1,39 @@
+{
+  "_fv": 8,
+  "_type": "gun",
+  "definition": {
+    "renderType": 1,
+    "texture": "meteorite_gun",
+    "customModelName": "meteorite_gun:default",
+    "name": "Meteorite Gun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LeFameuxMod"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:MeteoriteFragment"
+    },
+    "shootConstantly": true,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:laser_shot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 4.0,
+    "bulletDamage": 7.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelcustom_model",
+    "customBulletModelTexture": "laser.png",
+    "onBulletHitsBlock": {
+      "name": "MeteoriteGunBulletHitsBlock"
+    }
+  }
+}

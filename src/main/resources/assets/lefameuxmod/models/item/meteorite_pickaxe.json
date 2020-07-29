@@ -1,0 +1,8 @@
+{
+  "parent": "lefameuxmod:custom/meteorite_pickaxe",
+  "textures": {
+    "0": "lefameuxmod:blocks/gasoilblock",
+    "1": "lefameuxmod:blocks/meteorite_blade",
+    "2": "lefameuxmod:blocks/gold"
+  }
+}

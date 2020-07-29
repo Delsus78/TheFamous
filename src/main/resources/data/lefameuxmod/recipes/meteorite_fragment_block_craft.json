@@ -1,0 +1,42 @@
+{
+  "group": "lefameuxmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "lefameuxmod:meteorite_fragment"
+    },
+    "1": {
+      "item": "lefameuxmod:meteorite_fragment"
+    },
+    "2": {
+      "item": "lefameuxmod:meteorite_fragment"
+    },
+    "3": {
+      "item": "lefameuxmod:meteorite_fragment"
+    },
+    "4": {
+      "item": "lefameuxmod:meteorite_fragment"
+    },
+    "5": {
+      "item": "lefameuxmod:meteorite_fragment"
+    },
+    "6": {
+      "item": "lefameuxmod:meteorite_fragment"
+    },
+    "7": {
+      "item": "lefameuxmod:meteorite_fragment"
+    },
+    "8": {
+      "item": "lefameuxmod:meteorite_fragment"
+    }
+  },
+  "result": {
+    "item": "lefameuxmod:meteorite_block",
+    "count": 1
+  }
+}

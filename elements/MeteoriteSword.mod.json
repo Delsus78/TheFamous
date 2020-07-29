@@ -1,0 +1,27 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "meteorite_sword",
+    "customModelName": "meteorite_sword:default",
+    "name": "Meteorite Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LeFameuxMod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 3.0,
+    "enchantability": 22,
+    "damageVsEntity": 8.0,
+    "usageCount": 1864,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onItemInUseTick": {
+      "name": "MeteoriteSwordToolInHandTick"
+    }
+  }
+}

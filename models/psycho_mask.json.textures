@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "leather",
+        "1": "bone_block_side",
+        "2": "bell_side",
+        "3": "anvil",
+        "4": "mask_top",
+        "5": "bone_block_top",
+        "6": "gray_wool",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

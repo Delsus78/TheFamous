@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lefameuxmod:blocks/gasoilblock",
+    "up": "lefameuxmod:blocks/gasoilblock",
+    "north": "lefameuxmod:blocks/gasoilblock",
+    "east": "lefameuxmod:blocks/gasoilblock",
+    "south": "lefameuxmod:blocks/gasoilblock",
+    "west": "lefameuxmod:blocks/gasoilblock",
+    "particle": "lefameuxmod:blocks/gasoilblock"
+  }
+}

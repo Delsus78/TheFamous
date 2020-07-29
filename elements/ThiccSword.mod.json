@@ -1,0 +1,26 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "thicc",
+    "customModelName": "thicc_sword:default",
+    "name": "Thicc Sword",
+    "specialInfo": [
+      "This is a thicc sword."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:LeFameuxMod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 0.7,
+    "enchantability": 22,
+    "damageVsEntity": 9.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "meteorite_pickaxe",
+    "customModelName": "meteorite_pickaxe:default",
+    "name": "Meteorite Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LeFameuxMod"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 11.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 5.0,
+    "usageCount": 2514,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onItemInUseTick": {
+      "name": "MeteoriteSwordToolInHandTick"
+    }
+  }
+}

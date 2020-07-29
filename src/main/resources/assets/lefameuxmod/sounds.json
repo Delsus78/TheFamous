@@ -1,0 +1,74 @@
+{
+  "laser_shot": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lefameuxmod:laser_shot",
+        "stream": false
+      }
+    ]
+  },
+  "laser_end": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lefameuxmod:laser_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "ian-malcolm-l01": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lefameuxmod:ian-malcolm-l01",
+        "stream": false
+      }
+    ]
+  },
+  "ian-malcolm-l02": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lefameuxmod:ian-malcolm-l02",
+        "stream": false
+      }
+    ]
+  },
+  "ian-malcolm-l04": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lefameuxmod:ian-malcolm-l04",
+        "stream": false
+      }
+    ]
+  },
+  "ian-malcolm-l05": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lefameuxmod:ian-malcolm-l05",
+        "stream": false
+      }
+    ]
+  },
+  "ian-malcolm-l06": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lefameuxmod:ian-malcolm-l06",
+        "stream": false
+      }
+    ]
+  },
+  "ian-malcolm-l03": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lefameuxmod:projet-par-defaut",
+        "stream": false
+      }
+    ]
+  }
+}

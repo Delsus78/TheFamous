@@ -1,0 +1,9 @@
+{
+  "parent": "lefameuxmod:custom/meteorite_axe",
+  "textures": {
+    "0": "lefameuxmod:blocks/stick",
+    "1": "lefameuxmod:blocks/meteorite_blade",
+    "2": "lefameuxmod:blocks/gold",
+    "3": "lefameuxmod:blocks/gasoilblock"
+  }
+}

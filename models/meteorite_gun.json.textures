@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "andesite",
+        "2": "respawn_anchor_top_off",
+        "3": "magma",
+        "4": "meteorite_blade",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

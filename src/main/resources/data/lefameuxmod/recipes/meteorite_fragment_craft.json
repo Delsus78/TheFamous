@@ -1,0 +1,16 @@
+{
+  "group": "lefameuxmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "lefameuxmod:meteorite_block"
+    }
+  },
+  "result": {
+    "item": "lefameuxmod:meteorite_fragment",
+    "count": 9
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "lefameuxmod:custom/meteorite_gun",
+  "textures": {
+    "0": "lefameuxmod:blocks/andesite",
+    "2": "lefameuxmod:blocks/respawn_anchor_top_off",
+    "3": "lefameuxmod:blocks/magma",
+    "4": "lefameuxmod:blocks/meteorite_blade",
+    "missing": "lefameuxmod:blocks/"
+  }
+}

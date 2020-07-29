@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "meteorite_blade",
+        "1": "meteorite_fragment",
+        "2": "gasoilblock",
+        "3": "gold",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}
