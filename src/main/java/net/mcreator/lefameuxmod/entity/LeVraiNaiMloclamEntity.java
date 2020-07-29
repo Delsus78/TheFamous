@@ -18,7 +18,6 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -38,6 +37,7 @@ import net.minecraft.client.renderer.entity.model.BipedModel;
 import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.BipedRenderer;
 
+import net.mcreator.lefameuxmod.itemgroup.LeFameuxModItemGroup;
 import net.mcreator.lefameuxmod.item.ThiccSwordItem;
 import net.mcreator.lefameuxmod.LefameuxmodModElements;
 
@@ -57,7 +57,7 @@ public class LeVraiNaiMloclamEntity extends LefameuxmodModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("le_vrai_nai_mloclam")
 						.setRegistryName("le_vrai_nai_mloclam");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -39169, -16777216, new Item.Properties().group(ItemGroup.MISC))
+		elements.items.add(() -> new SpawnEggItem(entity, -39169, -16777216, new Item.Properties().group(LeFameuxModItemGroup.tab))
 				.setRegistryName("le_vrai_nai_mloclam"));
 	}
 
