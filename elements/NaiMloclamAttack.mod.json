@@ -73,10 +73,10 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "CUSTOM:ian-malcolm-l04"
+      "value": "CUSTOM:ian-malcolm-l02"
     },
     "deathSound": {
-      "value": "CUSTOM:ian-malcolm-l03"
+      "value": ""
     },
     "spawnParticles": false,
     "particleToSpawn": {

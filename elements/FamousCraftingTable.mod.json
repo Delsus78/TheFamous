@@ -11,7 +11,7 @@
     "renderType": 2,
     "customModelName": "famous_crafting_table:default",
     "rotationMode": 0,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
