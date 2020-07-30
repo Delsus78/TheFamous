@@ -80,7 +80,7 @@ public class FamousCraftingGUIGui extends LefameuxmodModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(11);
+			this.internal = new ItemStackHandler(12);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -112,9 +112,9 @@ public class FamousCraftingGUIGui extends LefameuxmodModElements.ModElement {
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 22) {
 			}));
-			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 115, 40) {
+			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 25, 22) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 22) {
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 115, 40) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
