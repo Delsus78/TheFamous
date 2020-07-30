@@ -2,7 +2,7 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "fletching_table_side",
+    "texture": "famouscraftingtable",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -86,6 +86,9 @@
       2,
       3
     ],
+    "onRandomUpdateEvent": {
+      "name": "FamousCraftingCraft"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

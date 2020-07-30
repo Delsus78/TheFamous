@@ -34,6 +34,7 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
@@ -41,10 +42,12 @@ import net.minecraft.block.DirectionalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.lefameuxmod.procedures.FamousCraftingCraftProcedure;
 import net.mcreator.lefameuxmod.itemgroup.LeFameuxModItemGroup;
 import net.mcreator.lefameuxmod.gui.FamousCraftingGUIGui;
 import net.mcreator.lefameuxmod.LefameuxmodModElements;
 
+import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
@@ -118,6 +121,21 @@ public class FamousCraftingTableBlock extends LefameuxmodModElements.ModElement 
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public void animateTick(BlockState state, World world, BlockPos pos, Random random) {
+			super.animateTick(state, world, pos, random);
+			PlayerEntity entity = Minecraft.getInstance().player;
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				FamousCraftingCraftProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

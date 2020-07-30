@@ -1,15 +1,15 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/fletching_table_side",
-		"1": "block/basalt_side",
-		"2": "block/birch_door_top",
-		"3": "block/birch_planks",
-		"4": "block/barrel_side",
-		"5": "block/daylight_detector_side",
-		"6": "block/cauldron_side",
-		"7": "block/acacia_planks",
-		"particle": "block/fletching_table_side"
+		"0": "assets:blocks/fletching_table_side",
+		"1": "assets:blocks/basalt_side",
+		"2": "assets:blocks/birch_door_top",
+		"3": "assets:blocks/birch_planks",
+		"4": "assets:blocks/barrel_side",
+		"5": "assets:blocks/daylight_detector_side",
+		"6": "assets:blocks/cauldron_side",
+		"7": "assets:blocks/acacia_planks",
+		"particle": "assets:blocks/fletching_table_side"
 	},
 	"elements": [
 		{
@@ -663,6 +663,47 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-180, 0, 0],
+			"translation": [0, -2.75, -3],
+			"scale": [0.58984, 0.58984, 0.58984]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-180, 0, 0],
+			"translation": [0, -2.75, -3],
+			"scale": [0.58984, 0.58984, 0.58984]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, -30, 0],
+			"translation": [1.25, -1, -0.5],
+			"scale": [0.58984, 0.58984, 0.58984]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, -30, 0],
+			"translation": [1.25, -1, -0.5],
+			"scale": [0.58984, 0.58984, 0.58984]
+		},
+		"ground": {
+			"rotation": [-180, -30, 0],
+			"translation": [0, -1, 1],
+			"scale": [0.58984, 0.58984, 0.58984]
+		},
+		"gui": {
+			"rotation": [25, 45, 0],
+			"translation": [-1, 1.5, 0],
+			"scale": [0.74414, 0.74414, 0.74414]
+		},
+		"head": {
+			"rotation": [-180, -30, 0],
+			"translation": [1.25, -1, -0.5],
+			"scale": [0.58984, 0.58984, 0.58984]
+		},
+		"fixed": {
+			"rotation": [-180, 0, 0],
+			"scale": [0.58984, 0.58984, 0.58984]
+		}
+	},
 	"groups": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
 		{
 			"name": "outil",
