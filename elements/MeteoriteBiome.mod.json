@@ -50,13 +50,13 @@
     "rainingPossibility": 0.0,
     "temperature": 0.6,
     "baseHeight": 0.1,
-    "heightVariation": 1.4000000000000001,
+    "heightVariation": 1.5,
     "spawnBiome": false,
     "biomeWeight": 10,
     "biomeType": "DESERT",
-    "biomeCategory": "NONE",
+    "biomeCategory": "NETHER",
     "parent": {
-      "value": "the_end"
+      "value": "No parent"
     },
     "biomeDictionaryTypes": [
       "END"

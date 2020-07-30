@@ -71,7 +71,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.lefameuxmod.item.MeteoriteItem;
-import net.mcreator.lefameuxmod.block.MeteoriteFragmentsBlockBlock;
+import net.mcreator.lefameuxmod.block.StrangeMeteoriteBlock;
 import net.mcreator.lefameuxmod.block.MeteoriteBlockBlock;
 import net.mcreator.lefameuxmod.block.GasoilBlock;
 import net.mcreator.lefameuxmod.LefameuxmodModElements;
@@ -124,7 +124,8 @@ public class MeteoriteDimension extends LefameuxmodModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("lefameuxmod:meteorite_biome")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("lefameuxmod:meteorite_biome")),
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("the_void")),};
 	}
 
 	@Override
@@ -246,7 +247,7 @@ public class MeteoriteDimension extends LefameuxmodModElements.ModElement {
 					pz = pos.getZ() + 0.5 + 0.25 * j;
 					vz = random.nextFloat() * 2 * j;
 				}
-				world.addParticle(ParticleTypes.LARGE_SMOKE, px, py, pz, vx, vy, vz);
+				world.addParticle(ParticleTypes.SMOKE, px, py, pz, vx, vy, vz);
 			}
 		}
 
@@ -338,13 +339,13 @@ public class MeteoriteDimension extends LefameuxmodModElements.ModElement {
 				int i;
 				for (i = 0; i < 22; ++i) {
 					BlockPos blockpos = pos.offset(directionIn, i);
-					if (!this.func_196900_a(this.world.getBlockState(blockpos)) || !(this.world.getBlockState(blockpos.down())
-							.getBlock() == MeteoriteFragmentsBlockBlock.block.getDefaultState().getBlock())) {
+					if (!this.func_196900_a(this.world.getBlockState(blockpos))
+							|| !(this.world.getBlockState(blockpos.down()).getBlock() == StrangeMeteoriteBlock.block.getDefaultState().getBlock())) {
 						break;
 					}
 				}
 				BlockPos framePos = pos.offset(directionIn, i);
-				return (this.world.getBlockState(framePos).getBlock() == MeteoriteFragmentsBlockBlock.block.getDefaultState().getBlock()) ? i : 0;
+				return (this.world.getBlockState(framePos).getBlock() == StrangeMeteoriteBlock.block.getDefaultState().getBlock()) ? i : 0;
 			}
 
 			public int getHeight() {
@@ -369,12 +370,12 @@ public class MeteoriteDimension extends LefameuxmodModElements.ModElement {
 						}
 						if (i == 0) {
 							BlockPos framePos = blockpos.offset(this.leftDir);
-							if (!(this.world.getBlockState(framePos).getBlock() == MeteoriteFragmentsBlockBlock.block.getDefaultState().getBlock())) {
+							if (!(this.world.getBlockState(framePos).getBlock() == StrangeMeteoriteBlock.block.getDefaultState().getBlock())) {
 								break label56;
 							}
 						} else if (i == this.width - 1) {
 							BlockPos framePos = blockpos.offset(this.rightDir);
-							if (!(this.world.getBlockState(framePos).getBlock() == MeteoriteFragmentsBlockBlock.block.getDefaultState().getBlock())) {
+							if (!(this.world.getBlockState(framePos).getBlock() == StrangeMeteoriteBlock.block.getDefaultState().getBlock())) {
 								break label56;
 							}
 						}
@@ -382,7 +383,7 @@ public class MeteoriteDimension extends LefameuxmodModElements.ModElement {
 				}
 				for (int j = 0; j < this.width; ++j) {
 					BlockPos framePos = this.bottomLeft.offset(this.rightDir, j).up(this.height);
-					if (!(this.world.getBlockState(framePos).getBlock() == MeteoriteFragmentsBlockBlock.block.getDefaultState().getBlock())) {
+					if (!(this.world.getBlockState(framePos).getBlock() == StrangeMeteoriteBlock.block.getDefaultState().getBlock())) {
 						this.height = 0;
 						break;
 					}
@@ -569,9 +570,7 @@ public class MeteoriteDimension extends LefameuxmodModElements.ModElement {
 							boolean flag = i9 < 0;
 							blockpos$mutable.setPos(l9, j10, l10);
 							this.world.setBlockState(blockpos$mutable,
-									flag
-											? MeteoriteFragmentsBlockBlock.block.getDefaultState().getBlock().getDefaultState()
-											: Blocks.AIR.getDefaultState());
+									flag ? StrangeMeteoriteBlock.block.getDefaultState().getBlock().getDefaultState() : Blocks.AIR.getDefaultState());
 						}
 					}
 				}
@@ -580,8 +579,7 @@ public class MeteoriteDimension extends LefameuxmodModElements.ModElement {
 				for (int j8 = -1; j8 < 4; ++j8) {
 					if (k7 == -1 || k7 == 2 || j8 == -1 || j8 == 3) {
 						blockpos$mutable.setPos(i6 + k7 * l6, k2 + j8, k6 + k7 * i3);
-						this.world.setBlockState(blockpos$mutable, MeteoriteFragmentsBlockBlock.block.getDefaultState().getBlock().getDefaultState(),
-								3);
+						this.world.setBlockState(blockpos$mutable, StrangeMeteoriteBlock.block.getDefaultState().getBlock().getDefaultState(), 3);
 					}
 				}
 			}

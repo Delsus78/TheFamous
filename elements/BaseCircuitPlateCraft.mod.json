@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MeteoriteFragment"
+      },
+      {
+        "value": "CUSTOM:MeteoriteFragment"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MeteoriteFragment"
+      },
+      {
+        "value": "CUSTOM:MeteoriteFragment"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BaseCircuitPlate"
+    },
+    "name": "base_circuit_plate_craft",
+    "namespace": "mod"
+  }
+}

@@ -476,9 +476,43 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "strange_meteorite"
+    },
+    {
+      "name": "InGameOverlay",
+      "type": "overlay",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "in_game_overlay"
+    },
+    {
+      "name": "BaseCircuitPlate",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "base_circuit_plate"
+    },
+    {
+      "name": "BaseCircuitPlateCraft",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "base_circuit_plate_craft"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "FamousPoint",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "laser_shot",
@@ -538,15 +572,16 @@
       "item.lefameuxmod.ian_malcolm": "Nai Mloclam Spawn Egg",
       "entity.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam",
       "block.lefameuxmod.gasoil_block": "Gasoil Block",
-      "item.lefameuxmod.meteorite": "MeteoritePortalKey",
+      "item.lefameuxmod.meteorite": "Meteorite Portal Key",
       "item.lefameuxmod.thicc_sword": "Thicc Sword",
       "item.lefameuxmod.nai_mloclam": "Ian Malcolm Spawn Egg",
-      "block.lefameuxmod.meteorite_block": "Meteorite Fragment Block",
+      "block.lefameuxmod.meteorite_block": "Meteorite Block",
       "block.lefameuxmod.famous_crafting_table": "Famous Crafting Table",
       "item.lefameuxmod.space_cadet": "Space Cadet Spawn Egg",
       "item.lefameuxmod.meteorite_ingot": "Meteorite Ingot",
       "block.lefameuxmod.meteorite_fragments_block": "Meteorite Fragment Block",
       "item.lefameuxmod.meteorite_pickaxe": "Meteorite Pickaxe",
+      "item.lefameuxmod.base_circuit_plate": "Base Circuit Plate",
       "fluid.gasoil": "Gasoil",
       "item.lefameuxmod.gasoil_bucket": "Gasoil Bucket",
       "item.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam Spawn Egg",

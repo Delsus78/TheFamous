@@ -46,7 +46,7 @@ public class StrangeMeteoriteBlock extends LefameuxmodModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(100f, 10f).lightValue(0).harvestLevel(6)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(100f, 10f).lightValue(0).harvestLevel(6)
 					.harvestTool(ToolType.PICKAXE));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("strange_meteorite");

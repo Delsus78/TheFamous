@@ -57,7 +57,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "luminance": 0.0,
     "unbreakable": false,

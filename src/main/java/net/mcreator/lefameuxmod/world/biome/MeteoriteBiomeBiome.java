@@ -37,8 +37,8 @@ public class MeteoriteBiomeBiome extends LefameuxmodModElements.ModElement {
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0f).depth(0.1f).scale(1.4000000000000001f).temperature(0.6f).precipitation(Biome.RainType.NONE)
-					.category(Biome.Category.NONE).waterColor(-16724839).waterFogColor(-16724839).parent("the_end")
+			super(new Biome.Builder().downfall(0f).depth(0.1f).scale(1.5f).temperature(0.6f).precipitation(Biome.RainType.NONE)
+					.category(Biome.Category.NETHER).waterColor(-16724839).waterFogColor(-16724839)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(MeteoriteBlockBlock.block.getDefaultState(),
 							MeteoriteBlockBlock.block.getDefaultState(), MeteoriteBlockBlock.block.getDefaultState())));
 			setRegistryName("meteorite_biome");
