@@ -33,7 +33,6 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.lefameuxmod.procedures.TheFamousFurnaceFuelProcedure;
 import net.mcreator.lefameuxmod.LefameuxmodModElements;
 import net.mcreator.lefameuxmod.LefameuxmodMod;
 
@@ -114,11 +113,6 @@ public class FamousCraftingGUIGui extends LefameuxmodModElements.ModElement {
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 22) {
 			}));
 			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 115, 40) {
-				@Override
-				public void onSlotChanged() {
-					super.onSlotChanged();
-					GuiContainerMod.this.slotChanged(10, 0, 0);
-				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 22) {
 				@Override
@@ -446,12 +440,5 @@ public class FamousCraftingGUIGui extends LefameuxmodModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (slotID == 10 && changeType == 0) {
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
-				TheFamousFurnaceFuelProcedure.executeProcedure($_dependencies);
-			}
-		}
 	}
 }

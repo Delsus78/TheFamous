@@ -45,9 +45,6 @@
           },
           "id": 10,
           "disableStackInteraction": false,
-          "onSlotChanged": {
-            "name": "TheFamousFurnaceFuel"
-          },
           "name": "Slot #10",
           "x": 480,
           "y": 150

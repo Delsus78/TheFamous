@@ -1,7 +1,27 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "lefameuxmod:block/famous_crafting_table"
+    },
+    "facing=east": {
+      "model": "lefameuxmod:block/famous_crafting_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lefameuxmod:block/famous_crafting_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lefameuxmod:block/famous_crafting_table",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "lefameuxmod:block/famous_crafting_table",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "lefameuxmod:block/famous_crafting_table",
+      "x": 90
     }
   }
 }
