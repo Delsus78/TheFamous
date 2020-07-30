@@ -99,23 +99,6 @@
       "registry_name": "meteorite_ore"
     },
     {
-      "name": "TheFamousFurnaceFuel",
-      "type": "procedure",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "the_famous_furnace_fuel",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Gasoil",
       "type": "fluid",
       "sortid": 11,
@@ -450,13 +433,13 @@
       "item.lefameuxmod.famous_entity": "Famous Entity Spawn Egg",
       "entity.lefameuxmod.space_cadet": "Space Cadet",
       "block.lefameuxmod.meteorite_ore": "Meteorite Ore",
-      "item.lefameuxmod.meteorite_axe": "Meteorite Axe",
       "item.lefameuxmod.iron_handle": "Iron Handle",
+      "item.lefameuxmod.meteorite_axe": "Meteorite Axe",
       "entity.lefameuxmod.nai_mloclam_attack": "Ian Malcolm",
       "entity.lefameuxmod.famous_entity": "Famous Entity",
       "entity.lefameuxmod.nai_mloclam": "Ian Malcolm",
-      "item.lefameuxmod.meteorite_sword": "Meteorite Sword",
       "item.lefameuxmod.meteorite_fragment": "Meteorite Fragment",
+      "item.lefameuxmod.meteorite_sword": "Meteorite Sword",
       "entity.lefameuxmod.ian_malcolm": "Nai Mloclam",
       "item.lefameuxmod.ian_malcolm": "Nai Mloclam Spawn Egg",
       "entity.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam",
