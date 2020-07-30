@@ -22,9 +22,6 @@
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onItemInUseTick": {
-      "name": "MeteoriteFragmentItemInHandTick"
-    }
+    "inventoryStackSize": 64
   }
 }
