@@ -1,28 +1,33 @@
 {
   "group": "lefameuxmod",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
       "item": "lefameuxmod:meteorite_fragment"
     },
-    {
+    "1": {
       "item": "lefameuxmod:meteorite_fragment"
     },
-    {
+    "3": {
       "item": "lefameuxmod:meteorite_fragment"
     },
-    {
+    "4": {
       "item": "lefameuxmod:meteorite_fragment"
     },
-    {
+    "5": {
       "item": "minecraft:redstone"
     },
-    {
+    "7": {
       "item": "minecraft:iron_block"
     }
-  ],
+  },
   "result": {
-    "item": "lefameuxmod:unknown_element",
+    "item": "lefameuxmod:base_circuit_plate",
     "count": 1
   }
 }
