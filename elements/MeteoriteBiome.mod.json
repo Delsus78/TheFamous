@@ -1,0 +1,73 @@
+{
+  "_fv": 8,
+  "_type": "biome",
+  "definition": {
+    "groundBlock": {
+      "value": "CUSTOM:MeteoriteBlock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:MeteoriteBlock"
+    },
+    "generateLakes": false,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 1,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "CUSTOM:MeteoriteBlock"
+    },
+    "treeStem": {
+      "value": "CUSTOM:MeteoriteBlock"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:MeteoriteBlock"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:MeteoriteBlock"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6710785,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16724839,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 0,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "rainingPossibility": 0.0,
+    "temperature": 0.6,
+    "baseHeight": 0.0,
+    "heightVariation": 0.0,
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeType": "DESERT",
+    "biomeCategory": "NETHER",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [
+      "END"
+    ],
+    "spawnList": [
+      {
+        "value": "CUSTOM:FamousEntity"
+      },
+      {
+        "value": "CUSTOM:SpaceCadet"
+      }
+    ]
+  }
+}

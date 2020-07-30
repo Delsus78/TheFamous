@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "lefameuxmod:block/meteorite_portal_ew"
+    },
+    "axis=x": {
+      "model": "lefameuxmod:block/meteorite_portal_ns"
+    }
+  }
+}

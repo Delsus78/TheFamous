@@ -1,0 +1,47 @@
+{
+  "_fv": 8,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:MeteoritePortal"
+    },
+    "portalParticles": {
+      "value": "SMOKE_LARGE"
+    },
+    "portalLuminance": 1.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Meteorite Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:LeFameuxMod"
+    },
+    "texture": "portaligniter",
+    "portalTexture": "meteoriteportal",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:MeteoriteBiome"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:MeteoriteBlock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Gasoil"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "hasWeather": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false
+  }
+}
