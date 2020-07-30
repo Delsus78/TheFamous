@@ -27,7 +27,7 @@
     },
     "customColors": true,
     "airColor": {
-      "value": -16777216,
+      "value": -1,
       "falpha": 0.0
     },
     "grassColor": {
@@ -49,14 +49,14 @@
     "cactiPerChunk": 0,
     "rainingPossibility": 0.0,
     "temperature": 0.6,
-    "baseHeight": 0.0,
-    "heightVariation": 0.0,
+    "baseHeight": 0.1,
+    "heightVariation": 1.4000000000000001,
     "spawnBiome": false,
     "biomeWeight": 10,
     "biomeType": "DESERT",
-    "biomeCategory": "NETHER",
+    "biomeCategory": "NONE",
     "parent": {
-      "value": "No parent"
+      "value": "the_end"
     },
     "biomeDictionaryTypes": [
       "END"

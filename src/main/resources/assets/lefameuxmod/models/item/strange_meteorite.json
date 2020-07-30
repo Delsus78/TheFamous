@@ -1,5 +1,5 @@
 {
-  "parent": "lefameuxmod:block/meteorite_portal",
+  "parent": "lefameuxmod:block/strange_meteorite",
   "display": {
     "thirdperson": {
       "rotation": [

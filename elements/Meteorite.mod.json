@@ -3,16 +3,16 @@
   "_type": "dimension",
   "definition": {
     "portalFrame": {
-      "value": "CUSTOM:MeteoritePortal"
+      "value": "CUSTOM:MeteoriteFragmentsBlock"
     },
     "portalParticles": {
       "value": "SMOKE_LARGE"
     },
     "portalLuminance": 1.0,
     "portalSound": {
-      "value": "block.portal.ambient"
+      "value": ""
     },
-    "igniterName": "Meteorite Portal Igniter",
+    "igniterName": "MeteoritePortalKey",
     "igniterTab": {
       "value": "CUSTOM:LeFameuxMod"
     },
@@ -32,11 +32,11 @@
       "value": "CUSTOM:Gasoil"
     },
     "airColor": {
-      "value": -16777216,
+      "value": -13421773,
       "falpha": 0.0
     },
     "canRespawnHere": true,
-    "hasFog": true,
+    "hasFog": false,
     "hasWeather": false,
     "isDark": false,
     "doesWaterVaporize": false,
