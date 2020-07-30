@@ -99,23 +99,6 @@
       "registry_name": "meteorite_ore"
     },
     {
-      "name": "TheFamousFurnaceFuel",
-      "type": "procedure",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "the_famous_furnace_fuel",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Gasoil",
       "type": "fluid",
       "sortid": 11,
@@ -372,6 +355,50 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "famous_entity"
+    },
+    {
+      "name": "MeteoriteIngot",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "meteorite_ingot"
+    },
+    {
+      "name": "IronHandle",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_handle"
+    },
+    {
+      "name": "IronHandleCraft",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_handle_craft"
+    },
+    {
+      "name": "FamousCraftingCraft",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "famous_crafting_craft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -424,11 +451,12 @@
       "entity.lefameuxmod.space_cadet": "Space Cadet",
       "block.lefameuxmod.meteorite_ore": "Meteorite Ore",
       "item.lefameuxmod.meteorite_axe": "Meteorite Axe",
+      "item.lefameuxmod.iron_handle": "Iron Handle",
       "entity.lefameuxmod.nai_mloclam_attack": "Ian Malcolm",
       "entity.lefameuxmod.famous_entity": "Famous Entity",
       "entity.lefameuxmod.nai_mloclam": "Ian Malcolm",
-      "item.lefameuxmod.meteorite_fragment": "Meteorite Fragment",
       "item.lefameuxmod.meteorite_sword": "Meteorite Sword",
+      "item.lefameuxmod.meteorite_fragment": "Meteorite Fragment",
       "entity.lefameuxmod.ian_malcolm": "Nai Mloclam",
       "item.lefameuxmod.ian_malcolm": "Nai Mloclam Spawn Egg",
       "entity.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam",
@@ -438,6 +466,7 @@
       "block.lefameuxmod.meteorite_block": "Meteorite Fragment Block",
       "block.lefameuxmod.famous_crafting_table": "Famous Crafting Table",
       "item.lefameuxmod.space_cadet": "Space Cadet Spawn Egg",
+      "item.lefameuxmod.meteorite_ingot": "Meteorite Ingot",
       "item.lefameuxmod.meteorite_pickaxe": "Meteorite Pickaxe",
       "fluid.gasoil": "Gasoil",
       "item.lefameuxmod.gasoil_bucket": "Gasoil Bucket",

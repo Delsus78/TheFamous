@@ -110,27 +110,27 @@ public class FamousCraftingGUIGui extends LefameuxmodModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 22) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 14, 22) {
 			}));
-			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 115, 40) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 32, 22) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 22) {
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 122, 40) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 52, 40) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 68, 40) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 7, 58) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 23, 58) {
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 1 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 7 + 8 + sj * 18, 1 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 1 + 142));
+				this.addSlot(new Slot(inv, si, 7 + 8 + si * 18, 1 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -297,7 +297,7 @@ public class FamousCraftingGUIGui extends LefameuxmodModElements.ModElement {
 			this.y = container.y;
 			this.z = container.z;
 			this.entity = container.entity;
-			this.xSize = 176;
+			this.xSize = 189;
 			this.ySize = 168;
 		}
 		private static final ResourceLocation texture = new ResourceLocation("lefameuxmod:textures/famous_crafting_gui.png");
@@ -316,7 +316,7 @@ public class FamousCraftingGUIGui extends LefameuxmodModElements.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("lefameuxmod:textures/gas_gauge_empty.png"));
-			this.blit(this.guiLeft + 156, this.guiTop + 24, 0, 0, 256, 256);
+			this.blit(this.guiLeft + 162, this.guiTop + 24, 0, 0, 256, 256);
 		}
 
 		@Override
@@ -326,12 +326,12 @@ public class FamousCraftingGUIGui extends LefameuxmodModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("Famous Crafting Table", 7, 3, -16777216);
-			this.font.drawString("Tier", 154, 2, -13421773);
-			this.font.drawString("Tech", 154, 12, -13421773);
-			this.font.drawString("Materials", 7, 12, -10066330);
-			this.font.drawString("Support", 52, 30, -10066330);
-			this.font.drawString("Circuits", 7, 48, -10066330);
+			this.font.drawString("Famous Crafting Table", 13, 3, -16777216);
+			this.font.drawString("Tier", 161, 2, -13421773);
+			this.font.drawString("Tech", 161, 12, -13421773);
+			this.font.drawString("Materials", 9, 12, -10066330);
+			this.font.drawString("Support", 58, 30, -10066330);
+			this.font.drawString("Base Item", 9, 48, -10066330);
 		}
 
 		@Override

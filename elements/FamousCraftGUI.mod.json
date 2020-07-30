@@ -3,7 +3,7 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 377,
+    "width": 352,
     "height": 336,
     "renderBgLayer": true,
     "components": [
@@ -34,33 +34,6 @@
         }
       },
       {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 1,
-          "disableStackInteraction": false,
-          "name": "Slot #1",
-          "x": 300,
-          "y": 114
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "color": {
-            "value": -10092544,
-            "falpha": 0.0
-          },
-          "id": 10,
-          "disableStackInteraction": false,
-          "name": "Slot #10",
-          "x": 480,
-          "y": 150
-        }
-      },
-      {
         "type": "image",
         "data": {
           "image": "gas_gauge_empty.png",
@@ -78,8 +51,8 @@
             "falpha": 0.0
           },
           "name": "Tier",
-          "x": 559,
-          "y": 76
+          "x": 555,
+          "y": 78
         }
       },
       {
@@ -91,20 +64,23 @@
             "falpha": 0.0
           },
           "name": "Tech",
-          "x": 559,
-          "y": 96
+          "x": 555,
+          "y": 97
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:IronHandle"
           },
           "id": 2,
           "disableStackInteraction": false,
+          "onSlotChanged": {
+            "name": "TheFamousFurnaceFuel"
+          },
           "name": "Slot #2",
-          "x": 372,
+          "x": 354,
           "y": 150
         }
       },
@@ -117,7 +93,7 @@
           "id": 3,
           "disableStackInteraction": false,
           "name": "Slot #3",
-          "x": 282,
+          "x": 264,
           "y": 186
         }
       },
@@ -130,7 +106,7 @@
             "falpha": 0.0
           },
           "name": "Materials",
-          "x": 256,
+          "x": 264,
           "y": 96
         }
       },
@@ -150,14 +126,41 @@
       {
         "type": "label",
         "data": {
-          "text": "Base Item",
+          "text": "Circuits",
           "color": {
             "value": -10066330,
             "falpha": 0.0
           },
-          "name": "Base Item",
-          "x": 255,
-          "y": 167
+          "name": "Circuits",
+          "x": 264,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 300,
+          "y": 114
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -10079488,
+            "falpha": 0.0
+          },
+          "id": 10,
+          "disableStackInteraction": false,
+          "name": "Slot #10",
+          "x": 498,
+          "y": 150
         }
       }
     ]
