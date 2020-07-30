@@ -503,6 +503,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "base_circuit_plate_craft"
+    },
+    {
+      "name": "FamousCraftingBlockCraft",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "famous_crafting_block_craft"
+    },
+    {
+      "name": "MeteoriteIngotCraft",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "meteorite_ingot_craft"
+    },
+    {
+      "name": "RedstoneCircuitCard",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_circuit_card"
+    },
+    {
+      "name": "DiamondCircuitCard",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_circuit_card"
     }
   ],
   "variable_elements": [
@@ -561,13 +597,15 @@
       "item.lefameuxmod.famous_entity": "Famous Entity Spawn Egg",
       "entity.lefameuxmod.space_cadet": "Space Cadet",
       "block.lefameuxmod.meteorite_ore": "Meteorite Ore",
-      "item.lefameuxmod.meteorite_axe": "Meteorite Axe",
       "item.lefameuxmod.iron_handle": "Iron Handle",
+      "item.lefameuxmod.meteorite_axe": "Meteorite Axe",
+      "item.lefameuxmod.diamond_circuit_card": "Diamond Circuit Card",
       "entity.lefameuxmod.nai_mloclam_attack": "Ian Malcolm",
       "entity.lefameuxmod.famous_entity": "Famous Entity",
+      "item.lefameuxmod.redstone_circuit_card": "Redstone Circuit Card",
       "entity.lefameuxmod.nai_mloclam": "Ian Malcolm",
-      "item.lefameuxmod.meteorite_fragment": "Meteorite Fragment",
       "item.lefameuxmod.meteorite_sword": "Meteorite Sword",
+      "item.lefameuxmod.meteorite_fragment": "Meteorite Fragment",
       "entity.lefameuxmod.ian_malcolm": "Nai Mloclam",
       "item.lefameuxmod.ian_malcolm": "Nai Mloclam Spawn Egg",
       "entity.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam",
