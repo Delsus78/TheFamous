@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MeteoriteBlock"
+      "value": "CUSTOM:MeteoriteFragmentsBlock"
     },
     "name": "meteorite_fragment_block_craft",
     "namespace": "mod"
