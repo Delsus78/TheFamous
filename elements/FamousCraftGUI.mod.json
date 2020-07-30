@@ -1,0 +1,168 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 336,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Famous Crafting Table",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Famous Crafting Table",
+          "x": 264,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 264,
+          "y": 114
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gas_gauge_empty.png",
+          "name": "gas_gauge_empty.png",
+          "x": 562,
+          "y": 119
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tier",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Tier",
+          "x": 555,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tech",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Tech",
+          "x": 555,
+          "y": 97
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:IronHandle"
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "onSlotChanged": {
+            "name": "TheFamousFurnaceFuel"
+          },
+          "name": "Slot #2",
+          "x": 354,
+          "y": 150
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "name": "Slot #3",
+          "x": 264,
+          "y": 186
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Materials",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Materials",
+          "x": 264,
+          "y": 96
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Support",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Support",
+          "x": 354,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Circuits",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Circuits",
+          "x": 264,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 300,
+          "y": 114
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -10079488,
+            "falpha": 0.0
+          },
+          "id": 10,
+          "disableStackInteraction": false,
+          "name": "Slot #10",
+          "x": 498,
+          "y": 150
+        }
+      }
+    ]
+  }
+}
