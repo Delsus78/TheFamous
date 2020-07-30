@@ -381,6 +381,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "meteorite_ingot"
+    },
+    {
+      "name": "IronHandle",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_handle"
+    },
+    {
+      "name": "IronHandleCraft",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_handle_craft"
     }
   ],
   "variable_elements": [],
@@ -433,11 +451,12 @@
       "entity.lefameuxmod.space_cadet": "Space Cadet",
       "block.lefameuxmod.meteorite_ore": "Meteorite Ore",
       "item.lefameuxmod.meteorite_axe": "Meteorite Axe",
+      "item.lefameuxmod.iron_handle": "Iron Handle",
       "entity.lefameuxmod.nai_mloclam_attack": "Ian Malcolm",
       "entity.lefameuxmod.famous_entity": "Famous Entity",
       "entity.lefameuxmod.nai_mloclam": "Ian Malcolm",
-      "item.lefameuxmod.meteorite_fragment": "Meteorite Fragment",
       "item.lefameuxmod.meteorite_sword": "Meteorite Sword",
+      "item.lefameuxmod.meteorite_fragment": "Meteorite Fragment",
       "entity.lefameuxmod.ian_malcolm": "Nai Mloclam",
       "item.lefameuxmod.ian_malcolm": "Nai Mloclam Spawn Egg",
       "entity.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam",
