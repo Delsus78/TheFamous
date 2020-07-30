@@ -48,7 +48,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "XYZ",
+    "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,

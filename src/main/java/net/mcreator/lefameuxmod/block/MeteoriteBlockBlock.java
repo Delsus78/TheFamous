@@ -80,11 +80,6 @@ public class MeteoriteBlockBlock extends LefameuxmodModElements.ModElement {
 		}
 
 		@Override
-		public Block.OffsetType getOffsetType() {
-			return Block.OffsetType.XYZ;
-		}
-
-		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
