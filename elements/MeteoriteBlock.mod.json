@@ -2,15 +2,15 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "meteorite_fragment_block",
+    "texture": "meteoriteblock",
     "textureTop": "meteoriteblock",
     "textureLeft": "meteoriteblock",
     "textureFront": "meteoriteblock",
     "textureRight": "meteoriteblock",
     "textureBack": "meteoriteblock",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 4,
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 3,
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -20,12 +20,10 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Meteorite Fragment Block",
-    "specialInfo": [
-      "Block of Meteorite Fragments"
-    ],
-    "hardness": 1.25,
-    "resistance": 6.0,
+    "name": "Meteorite Block",
+    "specialInfo": [],
+    "hardness": 3.0,
+    "resistance": 11.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:LeFameuxMod"
@@ -63,7 +61,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 5,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

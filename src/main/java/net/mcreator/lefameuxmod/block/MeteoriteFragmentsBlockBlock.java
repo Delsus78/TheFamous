@@ -1,42 +1,17 @@
 
 package net.mcreator.lefameuxmod.block;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
-
-import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.World;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Rotation;
-import net.minecraft.util.Mirror;
-import net.minecraft.util.Direction;
-import net.minecraft.state.StateContainer;
-import net.minecraft.state.DirectionProperty;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItemUseContext;
-import net.minecraft.item.BlockItem;
-import net.minecraft.entity.Entity;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.HorizontalBlock;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import net.mcreator.lefameuxmod.procedures.MeteoriteBlockEntityWalksOnTheBlockProcedure;
-import net.mcreator.lefameuxmod.itemgroup.LeFameuxModItemGroup;
-import net.mcreator.lefameuxmod.LefameuxmodModElements;
-
-import java.util.List;
-import java.util.Collections;
 
 @LefameuxmodModElements.ModElement.Tag
-public class MeteoriteBlockBlock extends LefameuxmodModElements.ModElement {
-	@ObjectHolder("lefameuxmod:meteorite_block")
+public class MeteoriteFragmentsBlockBlock extends LefameuxmodModElements.ModElement {
+
+	@ObjectHolder("lefameuxmod:meteorite_fragments_block")
 	public static final Block block = null;
-	public MeteoriteBlockBlock(LefameuxmodModElements instance) {
-		super(instance, 5);
+
+	public MeteoriteFragmentsBlockBlock(LefameuxmodModElements instance) {
+		super(instance, 29);
+
 	}
 
 	@Override
@@ -45,13 +20,27 @@ public class MeteoriteBlockBlock extends LefameuxmodModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(LeFameuxModItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
-		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
+		public static final DirectionProperty FACING = DirectionalBlock.FACING;
+
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 11f).lightValue(0).harvestLevel(5)
-					.harvestTool(ToolType.PICKAXE));
+			super(
+
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.25f, 6f).lightValue(0).harvestLevel(2)
+							.harvestTool(ToolType.PICKAXE));
+
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("meteorite_block");
+
+			setRegistryName("meteorite_fragments_block");
+		}
+
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("Block of Meteorite Fragments"));
 		}
 
 		@Override
@@ -74,8 +63,6 @@ public class MeteoriteBlockBlock extends LefameuxmodModElements.ModElement {
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			if (context.getFace() == Direction.UP || context.getFace() == Direction.DOWN)
-				return this.getDefaultState().with(FACING, Direction.NORTH);
 			return this.getDefaultState().with(FACING, context.getFace());
 		}
 
@@ -96,8 +83,11 @@ public class MeteoriteBlockBlock extends LefameuxmodModElements.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
+
 				MeteoriteBlockEntityWalksOnTheBlockProcedure.executeProcedure($_dependencies);
 			}
 		}
+
 	}
+
 }

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lefameuxmod:block/strange_meteorite"
+    },
+    "facing=east": {
+      "model": "lefameuxmod:block/strange_meteorite",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lefameuxmod:block/strange_meteorite",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lefameuxmod:block/strange_meteorite",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "lefameuxmod:block/strange_meteorite",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "lefameuxmod:block/strange_meteorite",
+      "x": 90
+    }
+  }
+}

@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "lefameuxmod:blocks/meteorite_fragment_block",
-    "particle": "lefameuxmod:blocks/meteorite_fragment_block"
+    "down": "lefameuxmod:blocks/meteoriteblock",
+    "up": "lefameuxmod:blocks/meteoriteblock",
+    "north": "lefameuxmod:blocks/meteoriteblock",
+    "east": "lefameuxmod:blocks/meteoriteblock",
+    "south": "lefameuxmod:blocks/meteoriteblock",
+    "west": "lefameuxmod:blocks/meteoriteblock",
+    "particle": "lefameuxmod:blocks/meteoriteblock"
   }
 }

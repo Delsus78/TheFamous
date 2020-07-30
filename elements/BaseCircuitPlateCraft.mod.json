@@ -7,7 +7,7 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": "CUSTOM:MeteoriteFragment"
@@ -16,7 +16,7 @@
         "value": "CUSTOM:MeteoriteFragment"
       },
       {
-        "value": "CUSTOM:MeteoriteFragment"
+        "value": ""
       },
       {
         "value": "CUSTOM:MeteoriteFragment"
@@ -25,22 +25,22 @@
         "value": "CUSTOM:MeteoriteFragment"
       },
       {
-        "value": "CUSTOM:MeteoriteFragment"
+        "value": "Items.REDSTONE"
       },
       {
-        "value": "CUSTOM:MeteoriteFragment"
+        "value": ""
       },
       {
-        "value": "CUSTOM:MeteoriteFragment"
+        "value": "Blocks.IRON_BLOCK"
       },
       {
-        "value": "CUSTOM:MeteoriteFragment"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MeteoriteFragmentsBlock"
+      "value": "CUSTOM:BaseCircuitPlate"
     },
-    "name": "meteorite_fragment_block_craft",
+    "name": "base_circuit_plate_craft",
     "namespace": "mod"
   }
 }

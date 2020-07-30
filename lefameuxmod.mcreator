@@ -401,6 +401,15 @@
       }
     },
     {
+      "name": "Psycho",
+      "type": "mob",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "psycho"
+    },
+    {
       "name": "UltiSama",
       "type": "mob",
       "sortid": 28,
@@ -410,16 +419,106 @@
       "registry_name": "ulti_sama"
     },
     {
-      "name": "Psycho",
-      "type": "mob",
+      "name": "BaseCircuitPlateCraft",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "base_circuit_plate_craft"
+    },
+    {
+      "name": "BaseCircuitPlate",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "base_circuit_plate"
+    },
+    {
+      "name": "InGameOverlay",
+      "type": "overlay",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "in_game_overlay"
+    },
+    {
+      "name": "Meteorite",
+      "type": "dimension",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "meteorite"
+    },
+    {
+      "name": "MeteoriteFragmentsBlock",
+      "type": "block",
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "psycho"
+      "registry_name": "meteorite_fragments_block"
+    },
+    {
+      "name": "FamousCraftingTableUpdateTick",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "famous_crafting_table_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrangeMeteorite",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_meteorite"
+    },
+    {
+      "name": "MeteoriteBiome",
+      "type": "biome",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "meteorite_biome"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "FamousPoint",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "laser_shot",
@@ -477,13 +576,10 @@
       "item.lefameuxmod.meteorite_sword": "Meteorite Sword",
       "entity.lefameuxmod.ian_malcolm": "Nai Mloclam",
       "item.lefameuxmod.ian_malcolm": "Nai Mloclam Spawn Egg",
-      "entity.lefameuxmod.ulti_sama": "Ulti Sama",
       "entity.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam",
       "block.lefameuxmod.gasoil_block": "Gasoil Block",
-      "item.lefameuxmod.ulti_sama": "Ulti Sama Spawn Egg",
       "item.lefameuxmod.thicc_sword": "Thicc Sword",
       "item.lefameuxmod.nai_mloclam": "Ian Malcolm Spawn Egg",
-      "entity.lefameuxmod.psycho": "Psycho",
       "block.lefameuxmod.meteorite_block": "Meteorite Fragment Block",
       "block.lefameuxmod.famous_crafting_table": "Famous Crafting Table",
       "item.lefameuxmod.space_cadet": "Space Cadet Spawn Egg",
@@ -493,8 +589,7 @@
       "item.lefameuxmod.gasoil_bucket": "Gasoil Bucket",
       "item.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam Spawn Egg",
       "item.lefameuxmod.meteorite_gun": "Meteorite Gun",
-      "item.lefameuxmod.nai_mloclam_attack": "Ian Malcolm Spawn Egg",
-      "item.lefameuxmod.psycho": "Psycho Spawn Egg"
+      "item.lefameuxmod.nai_mloclam_attack": "Ian Malcolm Spawn Egg"
     }
   },
   "workspaceSettings": {

@@ -1,8 +1,8 @@
 {
   "parent": "lefameuxmod:custom/famous_crafting_table",
   "textures": {
-    "all": "lefameuxmod:blocks/fletching_table_side",
-    "particle": "lefameuxmod:blocks/fletching_table_side",
+    "all": "lefameuxmod:blocks/famouscraftingtable",
+    "particle": "lefameuxmod:blocks/famouscraftingtable",
     "0": "lefameuxmod:blocks/fletching_table_side",
     "1": "lefameuxmod:blocks/basalt_side",
     "2": "lefameuxmod:blocks/birch_door_top",
