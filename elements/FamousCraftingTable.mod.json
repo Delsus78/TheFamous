@@ -41,10 +41,10 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "OBSIDIAN",
+    "colorOnMap": "STONE",
     "creativePickItem": {
       "value": ""
     },
@@ -70,7 +70,7 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "FamousCraftingGUI",
     "openGUIOnRightClick": true,
     "inventorySize": 11,
@@ -78,24 +78,20 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [
-      1
+      10
     ],
     "inventoryInSlotIDs": [
       0,
-      10,
+      1,
       2,
       3
     ],
-    "onRandomUpdateEvent": {
-      "name": "FamousCraftingCraft"
+    "onTickUpdate": {
+      "name": "FamousCraftingTableUpdateTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
