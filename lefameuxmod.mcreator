@@ -557,6 +557,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_circuit_card"
+    },
+    {
+      "name": "PurpleMeteoria",
+      "type": "plant",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_meteoria"
+    },
+    {
+      "name": "ThiccPurpleMeteoria",
+      "type": "plant",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thicc_purple_meteoria"
     }
   ],
   "variable_elements": [
@@ -614,6 +632,7 @@
       "itemGroup.table_fameux_mod": "The Famous Mod",
       "item.lefameuxmod.famous_entity": "Famous Entity Spawn Egg",
       "entity.lefameuxmod.space_cadet": "Space Cadet",
+      "block.lefameuxmod.thicc_purple_meteoria": "Thicc Meteoria Rose",
       "block.lefameuxmod.thicc_meteoria_rose": "Thicc Meteoria Rose",
       "block.lefameuxmod.meteorite_ore": "Meteorite Ore",
       "item.lefameuxmod.iron_handle": "Iron Handle",
@@ -631,6 +650,7 @@
       "entity.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam",
       "block.lefameuxmod.gasoil_block": "Gasoil Block",
       "item.lefameuxmod.meteorite": "Meteorite Portal Key",
+      "block.lefameuxmod.purple_meteoria": "Meteoria Rose",
       "item.lefameuxmod.ulti_sama": "Ulti Sama Spawn Egg",
       "item.lefameuxmod.thicc_sword": "Thicc Sword",
       "item.lefameuxmod.nai_mloclam": "Ian Malcolm Spawn Egg",
