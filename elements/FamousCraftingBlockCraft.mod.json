@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:MeteoriteFragment"
+        "value": "Blocks.CRAFTING_TABLE"
       },
       {
-        "value": "CUSTOM:MeteoriteFragment"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:MeteoriteFragment"
-      },
-      {
-        "value": "CUSTOM:MeteoriteFragment"
-      },
-      {
-        "value": "Items.REDSTONE"
+        "value": "Blocks.ANVIL#0"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.IRON_BLOCK"
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": "Blocks.PLANKS"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BaseCircuitPlate"
+      "value": "CUSTOM:FamousCraftingTable"
     },
-    "name": "base_circuit_plate_craft",
+    "name": "famous_crafting_block_craft",
     "namespace": "mod"
   }
 }
