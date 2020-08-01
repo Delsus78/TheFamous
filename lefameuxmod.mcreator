@@ -539,6 +539,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "thicc_meteoria_rose"
+    },
+    {
+      "name": "RedstoneCircuitCard",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_circuit_card"
+    },
+    {
+      "name": "DiamondCircuitCard",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_circuit_card"
     }
   ],
   "variable_elements": [
@@ -596,9 +614,10 @@
       "itemGroup.table_fameux_mod": "The Famous Mod",
       "item.lefameuxmod.famous_entity": "Famous Entity Spawn Egg",
       "entity.lefameuxmod.space_cadet": "Space Cadet",
+      "block.lefameuxmod.thicc_meteoria_rose": "Thicc Meteoria Rose",
       "block.lefameuxmod.meteorite_ore": "Meteorite Ore",
-      "item.lefameuxmod.meteorite_axe": "Meteorite Axe",
       "item.lefameuxmod.iron_handle": "Iron Handle",
+      "item.lefameuxmod.meteorite_axe": "Meteorite Axe",
       "item.lefameuxmod.diamond_circuit_card": "Diamond Circuit Card",
       "entity.lefameuxmod.nai_mloclam_attack": "Ian Malcolm",
       "entity.lefameuxmod.famous_entity": "Famous Entity",
@@ -626,6 +645,7 @@
       "fluid.gasoil": "Gasoil",
       "item.lefameuxmod.gasoil_bucket": "Gasoil Bucket",
       "item.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam Spawn Egg",
+      "block.lefameuxmod.meteoria_rose": "Meteoria Rose",
       "item.lefameuxmod.meteorite_gun": "Meteorite Gun",
       "item.lefameuxmod.nai_mloclam_attack": "Ian Malcolm Spawn Egg",
       "item.lefameuxmod.psycho": "Psycho Spawn Egg",
