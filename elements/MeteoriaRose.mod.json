@@ -1,0 +1,59 @@
+{
+  "_fv": 8,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "lame",
+    "customModelName": "meteoria_rose:default",
+    "plantType": "normal",
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "name": "Meteoria Rose",
+    "specialInfo": [
+      "Strange rose huh ?"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:LeFameuxMod"
+    },
+    "hardness": 0.5,
+    "resistance": 0.0,
+    "luminance": 0.049999999999999996,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 4,
+    "fireSpreadSpeed": 2,
+    "frequencyOnChunks": 25,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Meteorite"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "CUSTOM:MeteoriteBiome"
+      },
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "swamp"
+      }
+    ]
+  }
+}
