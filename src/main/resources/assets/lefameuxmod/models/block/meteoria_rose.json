@@ -1,0 +1,10 @@
+{
+  "parent": "lefameuxmod:custom/meteoria_rose",
+  "textures": {
+    "all": "lefameuxmod:blocks/lame",
+    "particle": "lefameuxmod:blocks/lame",
+    "0": "lefameuxmod:blocks/lame",
+    "1": "lefameuxmod:blocks/gree",
+    "2": "lefameuxmod:blocks/gold"
+  }
+}

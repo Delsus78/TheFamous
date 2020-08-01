@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lame",
+        "1": "gree",
+        "2": "gold"
+      },
+      "name": "default"
+    }
+  }
+}

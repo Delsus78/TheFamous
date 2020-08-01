@@ -1,6 +1,10 @@
 package net.mcreator.lefameuxmod.procedures;
 
+<<<<<<< HEAD
+import net.minecraft.entity.Entity;
+=======
 import net.minecraft.world.World;
+>>>>>>> branch 'master' of https://github.com/Delsus78/TheFamous.git
 
 import net.mcreator.lefameuxmod.LefameuxmodModElements;
 
@@ -23,14 +27,21 @@ public class FamousCraftingTableUpdateTickProcedure extends LefameuxmodModElemen
 			System.err.println("Failed to load dependency z for procedure FamousCraftingTableUpdateTick!");
 			return;
 		}
+<<<<<<< HEAD
+		Entity entity = (Entity) dependencies.get("entity");
+=======
 		if (dependencies.get("world") == null) {
 			System.err.println("Failed to load dependency world for procedure FamousCraftingTableUpdateTick!");
 			return;
 		}
+>>>>>>> branch 'master' of https://github.com/Delsus78/TheFamous.git
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
+<<<<<<< HEAD
+=======
 		World world = (World) dependencies.get("world");
+>>>>>>> branch 'master' of https://github.com/Delsus78/TheFamous.git
 		{
 			java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 			$_dependencies.put("world", world);
