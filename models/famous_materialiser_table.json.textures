@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "black",
+        "1": "keyboard",
+        "2": "ext_poele",
+        "3": "stick_poele",
+        "4": "red_poele",
+        "5": "totem_in",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

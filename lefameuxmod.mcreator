@@ -514,15 +514,6 @@
       "registry_name": "ulti_sama"
     },
     {
-      "name": "MeteoriaRose",
-      "type": "plant",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "meteoria_rose"
-    },
-    {
       "name": "Meteorite",
       "type": "dimension",
       "sortid": 30,
@@ -530,15 +521,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "meteorite"
-    },
-    {
-      "name": "ThiccMeteoriaRose",
-      "type": "plant",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "thicc_meteoria_rose"
     },
     {
       "name": "RedstoneCircuitCard",
@@ -575,6 +557,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "thicc_purple_meteoria"
+    },
+    {
+      "name": "FamousMaterialiserTable",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "famous_materialiser_table"
     }
   ],
   "variable_elements": [
@@ -633,7 +624,6 @@
       "item.lefameuxmod.famous_entity": "Famous Entity Spawn Egg",
       "entity.lefameuxmod.space_cadet": "Space Cadet",
       "block.lefameuxmod.thicc_purple_meteoria": "Thicc Meteoria Rose",
-      "block.lefameuxmod.thicc_meteoria_rose": "Thicc Meteoria Rose",
       "block.lefameuxmod.meteorite_ore": "Meteorite Ore",
       "item.lefameuxmod.iron_handle": "Iron Handle",
       "item.lefameuxmod.meteorite_axe": "Meteorite Axe",
@@ -659,13 +649,13 @@
       "block.lefameuxmod.famous_crafting_table": "Famous Crafting Table",
       "item.lefameuxmod.space_cadet": "Space Cadet Spawn Egg",
       "item.lefameuxmod.meteorite_ingot": "Meteorite Ingot",
+      "block.lefameuxmod.famous_materialiser_table": "Famous Materialiser Table",
       "block.lefameuxmod.meteorite_fragments_block": "Meteorite Fragment Block",
       "item.lefameuxmod.meteorite_pickaxe": "Meteorite Pickaxe",
       "item.lefameuxmod.base_circuit_plate": "Base Circuit Plate",
       "fluid.gasoil": "Gasoil",
       "item.lefameuxmod.gasoil_bucket": "Gasoil Bucket",
       "item.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam Spawn Egg",
-      "block.lefameuxmod.meteoria_rose": "Meteoria Rose",
       "item.lefameuxmod.meteorite_gun": "Meteorite Gun",
       "item.lefameuxmod.nai_mloclam_attack": "Ian Malcolm Spawn Egg",
       "item.lefameuxmod.psycho": "Psycho Spawn Egg",

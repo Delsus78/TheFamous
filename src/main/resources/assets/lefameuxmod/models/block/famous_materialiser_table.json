@@ -1,0 +1,14 @@
+{
+  "parent": "lefameuxmod:custom/famous_materialiser_table",
+  "textures": {
+    "all": "lefameuxmod:blocks/famousmaterialisertable",
+    "particle": "lefameuxmod:blocks/famousmaterialisertable",
+    "0": "lefameuxmod:blocks/black",
+    "1": "lefameuxmod:blocks/keyboard",
+    "2": "lefameuxmod:blocks/ext_poele",
+    "3": "lefameuxmod:blocks/stick_poele",
+    "4": "lefameuxmod:blocks/red_poele",
+    "5": "lefameuxmod:blocks/totem_in",
+    "missing": "lefameuxmod:blocks/"
+  }
+}

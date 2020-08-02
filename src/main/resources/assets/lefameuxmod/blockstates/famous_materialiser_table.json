@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lefameuxmod:block/famous_materialiser_table"
+    },
+    "facing=east": {
+      "model": "lefameuxmod:block/famous_materialiser_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lefameuxmod:block/famous_materialiser_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lefameuxmod:block/famous_materialiser_table",
+      "y": 270
+    }
+  }
+}
