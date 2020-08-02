@@ -514,15 +514,6 @@
       "registry_name": "ulti_sama"
     },
     {
-      "name": "Meteorite",
-      "type": "dimension",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "meteorite"
-    },
-    {
       "name": "RedstoneCircuitCard",
       "type": "item",
       "sortid": 38,
@@ -545,7 +536,7 @@
       "type": "plant",
       "sortid": 40,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "purple_meteoria"
     },
@@ -553,8 +544,8 @@
       "name": "ThiccPurpleMeteoria",
       "type": "plant",
       "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
+      "compiles": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "thicc_purple_meteoria"
     },
@@ -639,7 +630,6 @@
       "entity.lefameuxmod.ulti_sama": "Ulti Sama",
       "entity.lefameuxmod.le_vrai_nai_mloclam": "Nai Mloclam",
       "block.lefameuxmod.gasoil_block": "Gasoil Block",
-      "item.lefameuxmod.meteorite": "Meteorite Portal Key",
       "block.lefameuxmod.purple_meteoria": "Meteoria Rose",
       "item.lefameuxmod.ulti_sama": "Ulti Sama Spawn Egg",
       "item.lefameuxmod.thicc_sword": "Thicc Sword",

@@ -41,7 +41,6 @@ import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.lefameuxmod.world.dimension.MeteoriteDimension;
 import net.mcreator.lefameuxmod.itemgroup.LeFameuxModItemGroup;
 import net.mcreator.lefameuxmod.LefameuxmodModElements;
 
@@ -83,8 +82,6 @@ public class ThiccPurpleMeteoriaBlock extends LefameuxmodModElements.ModElement 
 				DimensionType dimensionType = world.getDimension().getType();
 				boolean dimensionCriteria = false;
 				if (dimensionType == DimensionType.OVERWORLD)
-					dimensionCriteria = true;
-				if (dimensionType == MeteoriteDimension.type)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;

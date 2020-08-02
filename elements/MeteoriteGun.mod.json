@@ -30,7 +30,7 @@
     "bulletItemTexture": {
       "value": ""
     },
-    "bulletModel": "Modelcustom_model",
+    "bulletModel": "Default",
     "customBulletModelTexture": "laser.png",
     "onBulletHitsBlock": {
       "name": "MeteoriteGunBulletHitsBlock"
