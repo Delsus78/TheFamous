@@ -67,6 +67,8 @@ public class LefameuxmodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("lefameuxmod", "ian-malcolm-l06")));
 		sounds.put(new ResourceLocation("lefameuxmod", "ian-malcolm-l03"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("lefameuxmod", "ian-malcolm-l03")));
+		sounds.put(new ResourceLocation("lefameuxmod", "luffydeath"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("lefameuxmod", "luffydeath")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("lefameuxmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

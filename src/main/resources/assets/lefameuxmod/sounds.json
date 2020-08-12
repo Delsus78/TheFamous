@@ -70,5 +70,14 @@
         "stream": false
       }
     ]
+  },
+  "luffydeath": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lefameuxmod:luffy_death",
+        "stream": false
+      }
+    ]
   }
 }
